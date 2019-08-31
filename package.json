@@ -1,0 +1,25 @@
+{
+  "name": "webcom-hello-world",
+  "version": "1.0.0",
+  "description": "core component",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hu2prod/webcom-hello-world.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hu2prod/webcom-hello-world/issues"
+  },
+  "homepage": "https://github.com/hu2prod/webcom-hello-world#readme",
+  "dependencies": {
+    "webcom": "github:hu2prod/webcom",
+    "webcom-client-plugin-base": "github:hu2prod/webcom-client-plugin-base",
+    "webcom-engine-vendor": "github:hu2prod/webcom-engine-vendor"
+  }
+}
