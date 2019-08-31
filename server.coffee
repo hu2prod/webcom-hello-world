@@ -9,17 +9,12 @@ argv.ws_port ?= argv.port+10000
 } = require 'webcom/lib/client_configurator'
 require 'webcom-client-plugin-base/src/hotreload'
 require 'webcom-client-plugin-base/src/react'
-require 'webcom-client-plugin-base/src/webnative'
-require 'webcom-client-plugin-base/src/keyboard'
 delivery = require 'webcom'
 
 
 bundle = new Webcom_bundle master_registry
 bundle.plugin_add 'Webcom hotreload'
 bundle.plugin_add 'Webcom react'
-bundle.plugin_add 'webnative durable'
-bundle.plugin_add 'db_mixin'
-bundle.plugin_add 'keyboard scheme'
 bundle.feature_hash.hotreload = true
 
 delivery.start {
