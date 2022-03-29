@@ -18,7 +18,7 @@
   },
   "homepage": "https://github.com/hu2prod/webcom-hello-world#readme",
   "dependencies": {
-    "minimist": "^1.2.5",
+    "minimist": "^1.2.6",
     "webcom": "github:hu2prod/webcom",
     "webcom-client-plugin-base": "github:hu2prod/webcom-client-plugin-base",
     "webcom-engine-vendor": "github:hu2prod/webcom-engine-vendor"
